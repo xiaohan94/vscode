@@ -1,6 +1,45 @@
-#nav{
-    background: #000000;
+body{
+    font: 12px/1.5em "宋体",sans-serif;
 }
-.link{
+a{
+    text-decoration: none;
+}
+a:hover{
     color: red;
+}
+#mybody{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#head{
+    font-size: 15px;
+    margin: 0px 30px 10px 30px;
+    padding: 0px;
+    height: 50px;
+    position: relative;
+    background-color: lightblue;
+}
+#head>ul>li{
+    float: left;
+}
+li{
+    list-style-type: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: lightblue;
+}
+#xlcd1{
+    display: none;
+    position: absolute;
+    left: 900px;
+}
+#xlcd2{
+    display: none;
+    position: absolute;
+    left: 1000px;
 }

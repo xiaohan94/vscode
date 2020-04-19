@@ -8,22 +8,63 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>肖汉的主页</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
     <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-
-    <script src="" async defer></script>
-    <div id="nav">
-      <span class="link"><img src="" alt="" /> </span>
+    <script src="index.js"></script>
+    <div id="mybody">
+    <div id="head" class="fxahead">
+        <ul>
+          <li><a>首页</a></li>
+          <li><a>新闻</a></li>
+          <li><a>娱乐</a></li>
+          <li><a>视频</a></li>
+          <li><a>图片</a></li>
+          <li><a>科技</a></li>
+          <li><a>游戏</a></li>
+          <li><a>时尚</a></li>
+          <li><a>汽车</a></li>
+          <li id="cd1" onmouseover="add1()" onmouseout="add3()">体育
+            <ul id="xlcd1">
+              <li><a href="http://www.imooc.com">NBA</a></li>
+              <li><a>世界杯</a></li>
+            </ul>
+          </li>
+          <li id="cd2" onmouseover="add2()" onmouseout="add4()">更多
+            <ul id="xlcd2">
+            <li><a>教育</a></li>
+            <li><a>文化</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
+    
+  <form>
+    <input type="text" id="txt1" /><br>
+  <select name="set" id="set">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select><br>
+    <input type="text" id="txt2" /><br>
+    <input type="button" value="=" onclick="jsq()" /><br>
+    <input type="text" id="txt3" /><br>
+    <input type="reset" value="重置" /><br>
+    <input type="text" id="clock" size="50">
+    <input type="button" value="Stop" onclick="clearInterval(i)"><br>
+    <input type="text" id="count">
+    <input type="button" value="Start" onclick="startCount()">
+    <input type="button" value="Stop" onclick="stopCount()"><br>
+</form>
+</div>
   </body>
 </html>
