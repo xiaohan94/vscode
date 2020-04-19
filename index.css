@@ -7,6 +7,10 @@ a{
 a:hover{
     color: red;
 }
+p{
+    text-indent: 2em;
+    line-height: 1.5em;
+}
 #mybody{
     padding: 0;
     margin: 0;
@@ -16,7 +20,7 @@ a:hover{
 }
 #head{
     font-size: 15px;
-    margin: 0px 30px 10px 30px;
+    margin: 0px 20px 10px 20px;
     padding: 0px;
     height: 50px;
     position: relative;
@@ -42,4 +46,42 @@ li{
     display: none;
     position: absolute;
     left: 1000px;
+}
+#head-img{
+    height: 100px;
+    border: 1px solid #000000;
+    padding: 0px;
+    margin: 3px 20px 3px 20px;
+}
+#img-1{
+    height: 100px;
+    width: 695px;
+    padding: 0px;;
+    margin: 0px 3px 0px 0px;
+    float: left;
+    background: lightblue;
+}
+#img-2{
+    height: 100px;
+    width: 500px;
+    padding: 0px;;
+    margin: 0px 0px 0px 3px;
+    float: right;
+    background: lightblue;
+}
+#cont-left{
+    width: 695px;
+    height: 400px;
+    border: 1px solid #000000;
+    padding: 0px;
+    margin: 10px 0px 0px 20px;
+    float: left;
+}
+#cont-right{
+    width: 500px;
+    height: 400px;
+    border: 1px solid #000000;
+    padding: 0px;
+    margin: 10px 20px 0px 0px;
+    float: right;
 }
